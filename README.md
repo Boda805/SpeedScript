@@ -1,6 +1,6 @@
 ![alt text](https://raw.githubusercontent.com/boda7760/SpeedScript/SpeedScript/images/Application.png)
 
-SpeedScript is a small application meant to easily ingest transcript records from outside the current district (most commonly online courses) and into the Infinite Campus SIS. This is done in three steps:
+SpeedScript is a small application meant to easily ingest transcript records from outside the current district (most commonly online courses) and into the Infinite Campus SIS. This is done in four steps:
 
 1. Open the upload template.
 
