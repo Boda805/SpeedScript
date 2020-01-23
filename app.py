@@ -35,7 +35,7 @@ class Application(tk.Frame):
         df = pd.read_excel(self.file, converters={'stateID':str, 'grade':str})
         df = df.where(df.notnull(), '')
         
-        conn = pypyodbc.connect('''DRIVER={ODBC Driver 13 for SQL Server};
+        conn = pypyodbc.connect('''DRIVER={Driver};
                                    SERVER=Server;
                                    DATABASE=DB;
                                    UID=UN;
@@ -69,7 +69,7 @@ class Application(tk.Frame):
             self.status_bar['text'] = 'Upload unsuccesful, please check spreadsheet for errors/typos'
 
     def submit_file(self):   
-        conn = pypyodbc.connect('''DRIVER={ODBC Driver 13 for SQL Server};
+        conn = pypyodbc.connect('''DRIVER={Driver};
                                    SERVER=Server;
                                    DATABASE=DB;
                                    UID=UN;
