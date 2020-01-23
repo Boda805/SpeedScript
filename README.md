@@ -4,7 +4,7 @@ SpeedScript is a small application meant to easily ingest transcript records fro
 
 1. Open the upload template.
 
-2. Populate the template with records. Take precaution on fields such as StateID, making the column is data type 'Text'.
+2. Populate the template with records. Take precaution on fields such as StateID, making sure the column data type is 'Text'.
 
 3. Upload the populated template file. This will give a status indicator if the information was correctly entered or if there are errors.
 
